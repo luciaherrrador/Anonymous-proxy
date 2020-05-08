@@ -1,0 +1,1 @@
+"use strict";const buttonhamburguer=document.querySelector(".nav-trigger"),buttonClose=document.querySelector(".nav-close"),navMenu=document.querySelector(".nav");function slideMenu(){navMenu.classList.toggle("nav-hidden")}buttonhamburguer.addEventListener("click",slideMenu),buttonClose.addEventListener("click",slideMenu);
