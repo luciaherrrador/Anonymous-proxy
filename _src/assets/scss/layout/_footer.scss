@@ -1,0 +1,109 @@
+.footer{
+    background-color:$color-dark-grey-blue;
+    color:$color-white;
+    position:relative;
+    text-align:center;
+    padding-top:60px;
+    padding-bottom:45px;
+      @media all and (min-width:768px) {
+        text-align:left;
+      }
+      @media all and (min-width:1200px) {
+        padding-bottom:45px;
+      }
+  }
+  
+  .footer__flex-container{
+    @media all and (min-width:768px) {
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+      align-items:flex-start;
+      padding:0;
+    }
+    @media all and (min-width:1200px) {
+      justify-content:center;
+    }
+  }
+  
+  .footer__scrollup-link{
+    background-color:$color-white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    width:45px;
+    height:45px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    transform:translate(-50%,-50%);
+    position:absolute;
+    top:0;
+    left:50%;
+  }
+  
+  .footer__menu{
+    font-family:$font-text;
+    font-size:16px;
+    @media all and (min-width:768px){
+      order: 2;
+      margin: 0 150px;
+    }
+  }
+  
+  .footer__menu-containter{
+    font-family:$font-text;
+    text-transform:uppercase;
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  
+  .footer__menu-item{
+    padding:8px;
+  }
+  
+  .footer__social-links{
+    margin:30px 0;
+    @media all and (min-width:768px){
+      order: 3;
+      margin:0;
+      padding:0;
+    }
+  }
+  
+  .footer__social-container{
+    font-family:$font-text;
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-transform:uppercase;
+   }
+  
+  .footer__social-item{
+    padding:8px;
+  }
+  
+  .footer__small-elements{
+    font-family:$font-text;
+    font-size:14px;
+    @media all and (min-width:768px){
+      order: 1;
+    }
+  }
+  
+  .footer__small-year{
+    height:32px;
+    @media all and (min-width:768px){
+      padding-top:8px;
+    }
+  }
+  
+  .footer__color-heart{
+    color:$color-brightorange;
+  }
+  
+  .footer__link{
+    text-decoration:none;
+    color:$color-white;
+  }
+  

@@ -1,0 +1,117 @@
+/*section reasons*/
+
+.reasons{
+    background-color:$color-iceblue;
+    padding-top:30px;
+    text-align:center;
+    padding-bottom:60px;
+    .page__wrapper{
+      margin:0 auto;
+      max-width:1300px;
+    }
+    @media all and (min-width:768px){
+      padding-bottom:60px;
+    }
+    @media all and (min-width:1200px){
+      padding-bottom:60px;
+    }
+  }
+  .articler__title{
+    color:$color-black;
+    font-family:$font-title;
+    font-size:24px;
+    margin-bottom:45px;
+    margin-top:30px;
+      @media all and (min-width:768px){
+        font-size:26px;
+      }
+      @media all and (min-width:1200px){
+        font-size:32px;
+      }
+  }
+  .article__reasons-container{
+    list-style:none;
+    text-align:center;
+    margin:0;
+    padding:0;
+      @media all and (min-width:768px) {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom:30px;
+    }
+  }
+  .article__reasons-item{
+    margin-bottom:45px;
+  }
+  .article__item-container{
+    margin:0 auto;
+    width:180px;
+     @media all and (min-width:768px) {
+        width:220px;
+     }
+     @media all and (min-width:1200px) {
+       width:345px;
+      }
+  }
+  .col1{
+    @media all and (min-width:768px) {grid-column:1/2;
+    }
+   }
+   .col2{
+    @media all and (min-width:768px) {grid-column:2/3;
+    }
+   }
+   .col3{
+    @media all and (min-width:768px) {grid-column:3/4;
+    }
+   }
+  
+  .article__reasons-title{
+    font-family:$font-title;
+    color:$color-black;
+    font-size:18px;
+    margin:0;
+    margin-top:22;
+    @media all and (min-width:768px){
+      font-size:24px;
+      margin-bottom:15px;
+    }
+  }
+  .article__reasons-text{
+    color:$color-black;
+    font-family:$font-text;
+    font-size:18px;
+    margin:0;
+    line-height:1.5;
+    @media all and (min-width:768px){
+      font-size:20px;
+    }
+  }
+  .article__more-button{
+    border: none;
+    font-family:$font-text;
+    color:$color-white;
+    background-color:$color-brightorange;
+    border-radius:22px;
+    padding:12px 25px;
+    text-transform:capitalize;
+    font-size:20px;
+    transition:padding ease 0.5s, color ease 0.5s, background-color ease 0.7s;
+      &:hover{
+        cursor:pointer;
+        background-color:darkorange;
+        color:$color-black;
+          @media all and (min-width:768px) {
+            padding:14px 44px;
+          }
+          @media all and (min-width:1200px) {
+            padding:14px 64px;
+          }
+       }
+    @media all and (min-width:768px) {
+        padding:12px 40px;
+    }
+    @media all and (min-width:1200px) {
+        padding:12px 60px;
+    }
+  }

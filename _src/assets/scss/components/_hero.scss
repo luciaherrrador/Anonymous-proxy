@@ -1,0 +1,60 @@
+.hero{
+    background: url('../images/cover.jpg') center no-repeat;
+    margin: 0;
+    padding:0;
+    height: 100vh;
+    text-align:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titles_container{
+    margin:auto;
+    width:300px;
+      @media all and (min-width:768px){
+        width:680px;
+      }
+      @media all and (min-width:1200px){
+        width:730px;
+      }
+    }
+    .hero__title{
+      color:$color-white;
+      font-family:$font-title;
+      text-transform:uppercase;
+      font-size:42px;
+      margin:0;
+      @media all and (min-width:768px){
+        font-size:80px;
+      }
+      @media all and (min-width:1200px){
+        font-size:100px;
+      }
+    }
+    .hero__subtitle{
+      color:$color-white;
+      font-family:$font-text;
+      font-size:16px;
+      @media all and (min-width:768px){
+        font-size:24px;
+      }
+    }
+    .hero__arrow-containter{
+      padding-bottom:50px;
+      :hover{
+        cursor:pointer;
+      }
+    }
+    .hero__arrow{
+      background-color:$color-white;
+      display:inline;
+      border-radius:50%;
+      padding:13.5px 12px;
+    }
+    .hero__scrolldown-icon{
+      transform:translateY(30%)
+    }
+    
+    
+    
